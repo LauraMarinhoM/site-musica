@@ -1,12 +1,112 @@
-body{
-   font-family: Arial, sans-serif;
-   line-height: 20px;
-   padding: 20px;
+/* Estilos Gerais do Corpo da Página */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
-table, td, th{
-   border: 1px solid black;
-   border-collapse: collapse;
+/* Cabeçalho Principal */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
 
-   padding: 6px;
+header h1 {
+    margin: 0;
+}
+
+/* Navegação */
+nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Conteúdo Principal */
+main {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 0 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+section:last-of-type {
+    border-bottom: none;
+}
+
+/* Títulos */
+h1, h2, h3 {
+    color: #2c3e50;
+}
+
+/* Tabela de Álbuns */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+thead {
+    background-color: #333;
+    color: #fff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Efeito zebrado para melhor leitura */
+}
+
+/* Perfis dos Artistas */
+.perfil-artista {
+    display: flex; /* Usa Flexbox para alinhar imagem e texto */
+    align-items: center; /* Centraliza verticalmente */
+    gap: 20px; /* Espaço entre a imagem e o texto */
+    margin-bottom: 20px;
+}
+
+.perfil-artista img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover; /* Garante que a imagem cubra o espaço sem distorcer */
+    border-radius: 50%; /* Deixa a imagem redonda */
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #777;
 }
