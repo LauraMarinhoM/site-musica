@@ -42,7 +42,7 @@ nav a:hover {
 
 /* Conteúdo Principal */
 main {
-    max-width: 960px;
+    max-width: 960px; /* Largura máxima */
     margin: 20px auto;
     padding: 0 20px;
     background-color: #fff;
