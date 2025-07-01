@@ -66,7 +66,7 @@ h1, h2, h3 {
     color: #2c3e50;
 }
 
-/* Tabela de Álbuns */
+/* Tabela de Álbuns e musicas */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -86,6 +86,19 @@ thead {
 
 tbody tr:nth-child(even) {
     background-color: #f9f9f9; /* Efeito zebrado para melhor leitura */
+}
+
+/*Formulario index*/
+form{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 330px;
+}
+
+input,button{
+    padding: 5px;
+    margin-bottom: 8px;
 }
 
 /* Perfis dos Artistas */
