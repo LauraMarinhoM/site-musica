@@ -125,6 +125,23 @@ footer {
     color: #777;
 }
 
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+caption {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
 @media screen and (max-width: 800px){
 
     .left, .main, .right {
