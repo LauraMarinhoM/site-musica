@@ -103,8 +103,8 @@ input,button{
 
 /* Perfis dos Artistas */
 .perfil-artista {
-    display: flex; /* Usa Flexbox para alinhar imagem e texto */
-    align-items: center; /* Centraliza verticalmente */
+    display: flex;
+    align-items: center;
     gap: 20px; /* Espaço entre a imagem e o texto */
     margin-bottom: 20px;
 }
@@ -113,7 +113,7 @@ input,button{
     width: 150px;
     height: 150px;
     object-fit: cover; /* Garante que a imagem cubra o espaço sem distorcer */
-    border-radius: 50%; /* Deixa a imagem redonda */
+    border-radius: 50%;
 }
 
 /* Rodapé */
