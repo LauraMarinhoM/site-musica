@@ -4,8 +4,9 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #330000;
     color: #333;
+
 }
 
 /* Cabeçalho Principal */
@@ -149,3 +150,5 @@ caption {
         width: 100%;
     }
 }
+
+
