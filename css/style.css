@@ -78,15 +78,21 @@ th, td {
     padding: 12px;
     border: 1px solid #ddd;
     text-align: left;
+    
 }
 
 thead {
-    background-color: #333;
-    color: #fff;
+    
+    background-color: #262626;
+    color: black;
+    
+    
+    
 }
 
 tbody tr:nth-child(even) {
     background-color: #f9f9f9; /* Efeito zebrado para melhor leitura */
+    
 }
 
 /*Formulario index*/
@@ -136,11 +142,14 @@ table, th, td {
     border: 1px solid black;
     padding: 8px;
     text-align: left;
+    
+    
 }
 
 caption {
     margin-bottom: 10px;
     font-weight: bold;
+    
 }
 
 @media screen and (max-width: 800px){
@@ -150,5 +159,6 @@ caption {
         width: 100%;
     }
 }
+
 
 
