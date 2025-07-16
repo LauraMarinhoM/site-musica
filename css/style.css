@@ -78,21 +78,18 @@ th, td {
     padding: 12px;
     border: 1px solid #ddd;
     text-align: left;
-    
+
 }
 
 thead {
-    
+
     background-color: #262626;
-    color: black;
-    
-    
-    
+    color: #fff;
 }
 
 tbody tr:nth-child(even) {
     background-color: #f9f9f9; /* Efeito zebrado para melhor leitura */
-    
+
 }
 
 /*Formulario index*/
@@ -117,10 +114,35 @@ input,button{
 }
 
 .perfil-artista img {
+    min-width: 150px;
     width: 150px;
     height: 150px;
     object-fit: cover; /* Garante que a imagem cubra o espaço sem distorcer */
     border-radius: 50%;
+}
+
+#informacoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh; /* Garante que ocupe toda a altura da tela */
+}
+#informacoes main{
+    padding: 30px 20px;
+}
+
+/*tabela do sobre.html*/
+#informacoes table {
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+#informacoes table, th, td {
+    color: black;
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
 }
 
 /* Rodapé */
@@ -133,23 +155,10 @@ footer {
 }
 
 
-table {
-    border-collapse: collapse;
-    width: 100%;
-}
-
-table, th, td {
-    border: 1px solid black;
-    padding: 8px;
-    text-align: left;
-    
-    
-}
-
 caption {
     margin-bottom: 10px;
     font-weight: bold;
-    
+
 }
 
 @media screen and (max-width: 800px){
