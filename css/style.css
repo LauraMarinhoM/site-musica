@@ -105,6 +105,25 @@ input,button{
     margin-bottom: 8px;
 }
 
+/* Parde das curiosidades da musica */
+#curiosidades{
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    gap: 10px;
+}
+
+#curiosidades div{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.numeracao{
+    font-weight: bold;
+    color: #2c3e50;
+    font-size: 1.3em;
+}
 /* Perfis dos Artistas */
 .perfil-artista {
     display: flex;
@@ -121,28 +140,33 @@ input,button{
     border-radius: 50%;
 }
 
-#informacoes{
+/* centraliza o sobre */
+.container-informacoes{
     display: flex;
     flex-direction: column;
     justify-content: center;
     min-height: 100vh; /* Garante que ocupe toda a altura da tela */
 }
-#informacoes main{
+.container-informacoes main{
     padding: 30px 20px;
 }
 
 /*tabela do sobre.html*/
-#informacoes table {
+.container-informacoes table {
     border-collapse: collapse;
     width: 100%;
-
 }
 
-#informacoes table, th, td {
+.container-informacoes th {
     color: black;
     border: 1px solid black;
     padding: 8px;
-    text-align: left;
+}
+
+.container-informacoes td {
+    color: black;
+    border: 1px solid black;
+    padding: 8px;
 }
 
 /* Rodapé */
